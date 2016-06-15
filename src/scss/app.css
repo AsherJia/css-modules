@@ -1,0 +1,29 @@
+@value colors: "./colors.css";
+@value blue1, red1, green1, one from colors;
+
+:global(.title) {
+  color: green1;
+}
+
+:global(.global-font) {
+	font-size: 30px;
+}
+
+.classNamew22 {
+  background-color: blue1;
+}
+
+/* .title {
+	composes: className;
+	color: red1;
+} */
+
+/* .title2 {
+	composes: className from './another.css';
+	color: one;
+} */
+
+.ceil {
+	composes: className from './another.css';
+	color: one;
+}

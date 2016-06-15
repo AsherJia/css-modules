@@ -1,0 +1,21 @@
+.title {
+  color: #aaf200;
+}
+
+.global-font {
+	font-size: 30px;
+}
+
+.className {
+  background-color: #0c77f8;
+}
+
+/* .title {
+	composes: className;
+	color: red1;
+} */
+
+/* .title2 {
+	composes: className from './another.css';
+	color: one;
+} */

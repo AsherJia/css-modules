@@ -1,0 +1,6 @@
+@value colors: "./colors.css";
+@value two, three from colors;
+
+.className {
+  background-color: three;
+}
