@@ -9,6 +9,7 @@ class App extends Component {
     return (
     	<div>
     		{/*
+    			https://segmentfault.com/a/1190000004530909
 			<div className="title">
 				<h3>Asher</h3>
 			</div>
